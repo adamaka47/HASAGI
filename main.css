@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elem {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  background-color: #999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  border: 1px solid blue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-family: "Bad Script", "Tahoma", "Arial";
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.elem:hover {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+.elem:hover::before {
+  opacity: 0;
+}
+.elem::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(transparent, #4f688e);
+  opacity: 1;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  -webkit-transition-delay: 0.02s;
+          transition-delay: 0.02s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+.elem_4 {
+  background-image: url(../img/yasOdys.jpg);
+  background-position: 70% 50%;
+  background-size: cover;
+}
+.elem_2 {
+  background-image: url(../img/projYas.jpg);
+  background-position: 68% 50%;
+  background-size: cover;
+}
+.elem_3 {
+  background-image: url(../img/lune.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.elem_1 {
+  background-image: url(../img/night.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
