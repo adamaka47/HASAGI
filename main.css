@@ -73,22 +73,22 @@ body {
           transition-timing-function: ease-out;
 }
 .elem_4 {
-  background-image: url(../img/yasOdys.jpg);
+  background-image: url(yasOdys.jpg);
   background-position: 70% 50%;
   background-size: cover;
 }
 .elem_2 {
-  background-image: url(../img/projYas.jpg);
+  background-image: url(projYas.jpg);
   background-position: 68% 50%;
   background-size: cover;
 }
 .elem_3 {
-  background-image: url(../img/lune.jpg);
+  background-image: url(img/lune.jpg);
   background-position: 50% 50%;
   background-size: cover;
 }
 .elem_1 {
-  background-image: url(../img/night.jpg);
+  background-image: url(night.jpg);
   background-position: 50% 50%;
   background-size: cover;
 }
